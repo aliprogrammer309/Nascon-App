@@ -1,0 +1,26 @@
+.challan-container {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.applicant-copy,
+.bank-copy {
+  width: 550px;
+  border: 1px solid black;
+  /* padding: 50px 0 0 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.challan-row {
+  width: 550px;
+  display: flex;
+}
+
+.signatures {
+  display: flex;
+  justify-content: space-evenly;
+}

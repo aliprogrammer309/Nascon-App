@@ -1,0 +1,41 @@
+.event-registeration-container {
+  width: 60%;
+  border: 1px solid red;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  //   h2{
+  //     margin: 1%;
+  //   }
+  .input-cell {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2%;
+  }
+  input {
+    padding: 0.3rem;
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1600px) {
+  .event-registeration-container {
+    width: 50%;
+  }
+  .input-cell {
+    margin: 1%;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 850px) {
+  .event-registeration-container {
+    width: 90%;
+  }
+  .input-cell {
+    margin: 1%;
+  }
+}
